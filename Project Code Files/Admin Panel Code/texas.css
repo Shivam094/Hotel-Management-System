@@ -1,0 +1,57 @@
+.header{
+	height: 70px;
+	width: auto;
+	background-color: #34b2d1;
+	border-radius:15px;
+}
+.header li{
+	display: inline-block;
+	padding: 15px;
+}
+.header a{
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	margin: 20px;
+}
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color:black;
+	background-color:silver;
+}
+body{
+	background-image: url("img/lk.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+input[type=text], input[type=email], input[type=password], input[type=number]{
+	width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: lightblue;
+}
+input[type=submit]{
+	background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+td{
+	font-weight: bold;
+}
+.text
+{
+	word-spacing: 10px;
+	letter-spacing: 10px;
+}

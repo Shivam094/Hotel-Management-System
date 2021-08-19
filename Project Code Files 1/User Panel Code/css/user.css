@@ -1,0 +1,410 @@
+@media (max-width: 1800px) and (min-width: 1000px)
+{
+#full
+{
+	width: 100%;
+	height: auto;
+}
+#button
+{
+	display: none;
+}
+#header
+{
+	width: 100%;
+	height: 100px;
+	background: rgba(155,155,155,0.8);
+	position: fixed;
+}
+#logo
+{
+	width: 30%;
+	height: 100px;
+	float: left;
+}
+#nav
+{
+	width: 70%;
+	height: 100px;
+	float: left;
+}
+
+/*css start here for upper icon in user home page*/ 
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: grey;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+	margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+   display: block;
+   position: absolute;
+   background-color: grey;
+   margin-top: 0px;
+   margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+   display: block;
+   position: absolute;
+   
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 100px;
+	padding: 10px;
+	border-bottom: 1px dotted grey;
+	background: rgba(155,155,155,0.6);
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: white;
+}
+
+/*css end here*/
+
+ul li
+{
+	list-style: none;
+	float: left;
+	width: 14%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+h1
+{
+	padding: 10px;
+}
+#f1
+{
+	width: 100%;
+	height: 150px;
+	background-color: silver;
+	color: black;
+}
+#Welcome
+{
+	width: 100%;
+	height: auto;
+}
+
+#brand
+{
+    width:100%;
+    height: auto;
+}
+#one
+{
+	width: 33%;
+	height: auto;
+	float: left;
+}
+#two
+{
+	width: 33%;
+	height: auto;
+	float: left;
+}
+#three
+{
+	width: 33%;
+	height: auto;
+	float: left;
+}
+}
+
+@media (max-width: 1000px) and (min-width: 700px)
+{
+#full
+{
+	width: 100%;
+	height: auto;
+}
+#button
+{
+	display: none;
+}
+#header
+{
+	width: 100%;
+	height: auto;
+	background: rgba(155,155,155,0.8);
+	position: fixed;
+}
+#logo
+{
+	width: 100%;
+	height: 100px;
+}
+#nav
+{
+	width: 100%;
+	height: 100px;
+}
+ul li
+{
+	list-style: none;
+	float: left;
+	width: 14%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+h1
+{
+	padding: 10px;
+}
+#f1
+{
+	width: 100%;
+	height: 150px;
+	background-color: silver;
+	color: black;
+}
+#Welcome
+{
+	width: 100%;
+	height: auto;
+}
+
+#brand
+{
+    width:100%;
+    height: auto;
+}
+#one
+{
+	width: 33%;
+	height: auto;
+	float: left;
+}
+#two
+{
+	width: 33%;
+	height: auto;
+	float: left;
+}
+#three
+{
+	width: 33%;
+	height: auto;
+	float: left;
+}
+}
+
+@media (max-width: 700px) and (min-width: 500px)
+{
+#full
+{
+	width: 100%;
+	height: auto;
+}
+#header
+{
+	width: 100%;
+	height: 100px;
+	background-color: silver;
+}
+#logo
+{
+	width: 30%;
+	height: 100px;
+	float: left;
+}
+#nav
+{
+	width: 70%;
+	height: 100px;
+	float: left;
+}
+ul li
+{
+	list-style: none;
+	float: left;
+	width: 14%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+h1
+{
+	padding: 10px;
+}
+#f1
+{
+	width: 100%;
+	height: 150px;
+	background-color: silver;
+	color: black;
+}
+#Welcome
+{
+	width: 100%;
+	height: auto;
+}
+#brand
+{
+    width:100%;
+    height: auto;
+}
+#one
+{
+	width: 100%;
+	height: auto;
+}
+#two
+{
+	width: 100%;
+	height: auto;
+}
+#three
+{
+	width: 100%;
+	height: auto;
+}
+}
+
+@media (max-width: 500px) and (min-width: 50px)
+{
+#full
+{
+	width: 100%;
+	height: auto;
+}
+#header
+{
+	width: 100%;
+	height: auto;
+	background: rgba(155,155,155,0.8);
+	position: fixed;
+}
+#logo
+{
+	width: 30%;
+	height: 100px;
+	float: left;
+}
+#nav
+{
+	width: 100%;
+	height: auto;
+}
+ul li
+{
+	list-style: none;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+h1
+{
+	padding: 10px;
+}
+#f1
+{
+	width: 100%;
+	height: 150px;
+	background-color: silver;
+	color: black;
+}
+#Welcome
+{
+	width: 100%;
+	height: auto;
+}
+
+#brand
+{
+    width:100%;
+    height: auto;
+}
+#one
+{
+	width: 33%;
+	height: auto;
+	float: left;
+}
+#two
+{
+	width: 33%;
+	height: auto;
+	float: left;
+}
+#three
+{
+	width: 33%;
+	height: auto;
+	float: left;
+}
+}
+
+
+/* index.php css. */
+
+#bg
+{
+	background: 100%;
+
+}
+#form
+{
+	width: 600px;
+	padding-top: 100px;
+	height: auto;
+}
+td
+{
+	width: 300px;
+	height: 50px;
+}
+
+/* form.php css. */
+
+#banner
+{
+	width: 100%;
+	height: 70px;
+	background-color: transparent;
+}
+#connect
+{
+	padding-top: 100px;
+}
+/*-----*/

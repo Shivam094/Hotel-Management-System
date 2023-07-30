@@ -1,4 +1,5 @@
 # Hotel-Management-System
+# Hotel Booking & Management System - Developed a desktop as well as mobile compatible web based application by using PHP , HTML 5 , CSS 3 , Bootstrap 4 , Javascript , jQuery , Map API , Weather API , XAMPP web server and MYSQL .
 
 Home Page(User Panel)
 
